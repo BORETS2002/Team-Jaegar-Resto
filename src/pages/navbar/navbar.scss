@@ -1,0 +1,23 @@
+.navbar__box {
+  width: 128px;
+  overflow: hidden;
+  height: 100vh !important;
+  padding: 24px 0 0 12px;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  background: #1f1d2b;
+  border-radius: 16px;
+}
+.navbar-link--active {
+  width: 92px;
+  height: 80px;
+  padding: 42px 24px 24px 12px;
+  background: #252836;
+  border-radius: 12px 0px 0px 12px;
+}
+.navbar-link--active .navbar__svg-foos {
+  fill: #fff;
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+  border-radius: 8px;
+}

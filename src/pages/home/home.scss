@@ -1,0 +1,108 @@
+.box__Change-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+  margin-right: 140px;
+}
+.Choose__Dishes {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.Select-input {
+  padding: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+  background-size: contain;
+  appearance: none;
+  padding-left: 44px;
+  background-color: #1f1d2b;
+  background-image: "../../assets/imgs/Base.svg";
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}
+
+.food__list {
+  width: 850px;
+  overflow: auto;
+  padding-top: 70px;
+  height: 50vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* ширина для вертикального скролла */
+  height: 8px; /* высота для горизонтального скролла */
+  border-radius: 20px;
+  background-color: #1f1d2b;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #1f1d2b;
+  border-radius: 9em;
+  box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1f1d2b;
+}
+
+.food__item {
+  width: 220px;
+  position: relative;
+  margin-right: 28px;
+  margin-bottom: 78px;
+  padding-top: 114px;
+  padding-bottom: 24px;
+  background: #1f1d2b;
+  border-radius: 16px;
+  text-align: center;
+}
+.food__name {
+  width: 144px;
+  margin-right: auto;
+  margin-left: auto;
+  // text-align: center;
+}
+.food__prace {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.food__bowls {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #abbbc2;
+}
+.food__img {
+  position: absolute;
+  top: calc(-24%);
+  left: calc(24%);
+  width: 120px;
+  height: 122px;
+  border-radius: 50%;
+  animation: food-roted infinite 4s linear;
+}
+@keyframes food-roted {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
